@@ -37,7 +37,27 @@ button{
 .my-row{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red;
+    margin: 0 -4px ;
+    margin-bottom: 10px;
+}
+.my-col{
+    background-image: url(https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc((100% / 7) - 4px);
+    height: calc((100vh - 200px) / 5);
+    margin: 5px 2px ;
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6 );
+    padding: 2px 5px;
+    font-size: 0.7em;
 }
 
 /*
