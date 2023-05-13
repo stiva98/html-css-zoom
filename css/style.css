@@ -1,0 +1,51 @@
+/*
+RESET
+*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+GENERAL
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    position: relative;
+    height: calc(100vh - 100px);
+    background-color: black;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.my-buttons{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+button{
+    background-color: #222222;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+
+/*
+FOOTER
+*/
+.footer-bottom{
+    background-color: #222222;
+    height: 100px;
+    width: 100%;
+
+}
