@@ -28,7 +28,7 @@ main{
     top: 10px;
     right: 0;
 }
-button{
+.my-buttons button{
     background-color: #222222;
     border: none;
     color: white;
@@ -59,13 +59,51 @@ button{
     padding: 2px 5px;
     font-size: 0.7em;
 }
-
+.my-logo{
+    width: 30%
+}
+.my-logo-2{
+    width: 60%
+}
+.my-logo-3{
+    width: 10%
+}
+.my-logo i{
+    padding: 15px;
+}
+.my-logo .logo-block{
+    background-color: #222222;
+    border: none;
+    color: white;
+}
+.my-logo-2 i{
+    padding: 15px;
+}
+.my-logo-2 .logo-block{
+    background-color: #222222;
+    border: none;
+    color: white;
+}
+.logo-block i{
+    display: block;
+}
+.end-button{
+    color: red;
+    background-color: #4a4a4a;
+    border: none;
+    height: 100px;
+    padding: 5px;
+    width: 100%;
+}
 /*
 FOOTER
 */
 .footer-bottom{
     background-color: #222222;
-    height: 100px;
     width: 100%;
-
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
